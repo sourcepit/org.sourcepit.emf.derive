@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EMF Derive Core
+Bundle-SymbolicName: org.sourcepit.emf.derive.core
+Bundle-Version: ${module.osgiVersion}
+Bundle-RequiredExecutionEnvironment: ${b2.executionEnvironment}
