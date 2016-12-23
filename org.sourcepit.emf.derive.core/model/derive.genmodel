@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.sourcepit.emf.derive.core/gen" modelPluginID="org.sourcepit.emf.derive.core"
+    modelName="Derive" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" bundleManifest="false" complianceLevel="8.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>derive.ecore</foreignModel>
+  <genPackages prefix="Derive" basePackage="org.sourcepit.emf" disposableProviderFactory="true"
+      interfacePackageSuffix="core" metaDataPackageSuffix="core" classPackageSuffix="core.impl"
+      utilityPackageSuffix="core.util" providerPackageSuffix="core.provider" presentationPackageSuffix="core.presentation"
+      testsPackageSuffix="core.tests" ecorePackage="derive.ecore#/">
+    <genClasses image="false" ecoreClass="derive.ecore#//DerivationConfiguration">
+      <genTypeParameters ecoreTypeParameter="derive.ecore#//DerivationConfiguration/T"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference derive.ecore#//DerivationConfiguration/origin"/>
+    </genClasses>
+    <nestedGenPackages prefix="Ecore" basePackage="org.sourcepit.emf.derive.core"
+        disposableProviderFactory="true" ecorePackage="derive.ecore#//ecore">
+      <genClasses ecoreClass="derive.ecore#//ecore/EcoreDerivationConfiguration"/>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>
