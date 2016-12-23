@@ -2,3 +2,7 @@
 /META-INF/
 /target/
 /pom.xml
+/.classpath
+/.project
+/.settings/
+/plugin.properties

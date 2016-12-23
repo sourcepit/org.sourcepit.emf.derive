@@ -1,3 +1,5 @@
 /.b2/
 /target/
 /pom.xml
+/.settings/
+/.project
