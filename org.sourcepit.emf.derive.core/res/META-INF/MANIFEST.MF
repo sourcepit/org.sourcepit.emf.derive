@@ -4,12 +4,12 @@ Bundle-Name: EMF Derive Core
 Bundle-SymbolicName: org.sourcepit.emf.derive.core;singleton:=true
 Bundle-Version: ${module.osgiVersion}
 Bundle-RequiredExecutionEnvironment: ${b2.executionEnvironment}
-Export-Package: org.sourcepit.emf.derive.core,
- org.sourcepit.emf.derive.core.ecore,
- org.sourcepit.emf.derive.core.ecore.impl,
- org.sourcepit.emf.derive.core.ecore.util,
- org.sourcepit.emf.derive.core.impl,
- org.sourcepit.emf.derive.core.util
+Export-Package: org.sourcepit.emf.derive.core;version="${module.osgiVersion}",
+ org.sourcepit.emf.derive.core.ecore;version="${module.osgiVersion}",
+ org.sourcepit.emf.derive.core.ecore.impl;version="${module.osgiVersion}",
+ org.sourcepit.emf.derive.core.ecore.util;version="${module.osgiVersion}",
+ org.sourcepit.emf.derive.core.impl;version="${module.osgiVersion}",
+ org.sourcepit.emf.derive.core.util;version="${module.osgiVersion}"
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport
 Bundle-ActivationPolicy: lazy
