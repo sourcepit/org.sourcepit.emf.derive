@@ -16,7 +16,7 @@
 
 	<properties>
 		<tycho.version>0.26.0</tycho.version>
-		<b2.version>0.20.0</b2.version>
+		<b2.version>0.21.0-SNAPSHOT</b2.version>
 		<b2.executionEnvironment>JavaSE-1.8</b2.executionEnvironment>
 		<b2.facets.requiredFeatures>
 			org.eclipse.emf,

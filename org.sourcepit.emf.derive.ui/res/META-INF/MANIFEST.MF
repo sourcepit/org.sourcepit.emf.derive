@@ -4,7 +4,7 @@ Bundle-Name: EMF Derive UI
 Bundle-SymbolicName: org.sourcepit.emf.derive.ui;singleton:=true
 Bundle-Version: ${module.osgiVersion}
 Bundle-Activator: org.sourcepit.emf.derive.ui.Activator
-Require-Bundle: org.sourcepit.emf.derive.core;bundle-version="${module.osgiVersion}",
+Require-Bundle: org.sourcepit.emf.derive.core;bundle-version="[${module.simpleVersion},${module.nextMinorVersion})",
  org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.ui.ide,
